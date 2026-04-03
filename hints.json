@@ -1,0 +1,57 @@
+{
+  "two-sum": [
+    "Try checking every pair using two nested loops.",
+    "Use a hashmap to store previous values for O(n) time.",
+    "Try sorting and use two-pointer approach."
+  ],
+  "valid-parentheses": [
+    "Try pushing opening brackets into a stack.",
+    "Pop and match when you see a closing bracket.",
+    "If the stack is empty at the end, it's valid."
+  ],
+  "merge-sorted-array": [
+    "Merge both arrays into a new one and sort.",
+    "Can you do it in-place from the end?",
+    "Start from the end and fill backwards to avoid shifting."
+  ],
+  "longest-substring-without-repeating-characters": [
+    "Check all substrings and track duplicates.",
+    "Can you slide a window while storing visited chars?",
+    "Use sliding window and hash set for O(n) solution."
+  ],
+  "maximum-subarray": [
+    "Try checking all subarrays and track max sum.",
+    "Use a running sum and reset if it goes below 0.",
+    "Kadane\u2019s Algorithm gives optimal O(n) result."
+  ],
+  "climbing-stairs": [
+    "Try calculating every possible way recursively.",
+    "Use memoization to avoid recomputing.",
+    "Use bottom-up DP: f(n) = f(n-1) + f(n-2)."
+  ],
+  "reverse-linked-list": [
+    "Try storing nodes in an array and reversing.",
+    "Use 3 pointers to reverse links one by one.",
+    "Iteratively update next pointers for O(1) space."
+  ],
+  "binary-search": [
+    "Search the array one by one linearly.",
+    "Can you divide and search halves recursively?",
+    "Use binary search by comparing mid each time."
+  ],
+  "flood-fill": [
+    "Try changing all matching color pixels one by one.",
+    "Use recursion to explore 4-directionally.",
+    "Apply DFS or BFS to paint all connected regions."
+  ],
+  "rotting-oranges": [
+    "Rot each orange and then check again.",
+    "Use BFS to simulate rotting minute by minute.",
+    "Track layers (time) in BFS and count fresh oranges."
+  ],
+  "palindrome-number": [
+  "Think about reversing the number",
+  "Compare original and reversed number",
+  "Handle negative numbers carefully"
+]
+}

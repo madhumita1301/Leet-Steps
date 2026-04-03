@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "LeetSteps",
+  "version": "1.1",
+  "description": "Get step-by-step hints for LeetCode problems.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://leetcode.com/problems/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
