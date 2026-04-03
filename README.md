@@ -25,7 +25,7 @@ brute force to optimal solutions without revealing the full answer.
 5. Click "Load unpacked"
 6. Select the project folder
 
-✅ Usagec
+✅ Usage
 1. Open any LeetCode problem
 2. Click on the extension icon
 3. View hints to move from brute-force to optimal solution
